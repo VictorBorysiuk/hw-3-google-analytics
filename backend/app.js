@@ -49,37 +49,6 @@ app.use((req, res, next) => {
   res.sendFile(path.join(__dirname, "angular", "index.html"));
 });
 
-// The following environment variable is set by app.yaml when running on App
-// Engine, but will need to be set manually when running locally. See README.md.
-// const {GA_TRACKING_ID} = process.env;
-
-const trackEvent = (category, action, label, value) => {
-  const data = {
-    // API Version.
-    v: '2',
-    // Tracking ID / Property ID.
-    tid: process.env.GA_TRACKING_ID,
-    // Anonymous Client Identifier. Ideally, this should be a UUID that
-    // is associated with particular user, device, or browser instance.
-    cid: '555',
-    // Event hit type.
-    t: 'event',
-    // Event category.
-    ec: category,
-    // Event action.
-    // ea: action,
-    // Event label.
-    el: label,
-    // Event value.
-    ev: value,
-  };
-  console.log('data',data);
-  return fetch('http://www.google-analytics.com/g/collect', action, {
-    params: data,
-  });
-};
-
-// var url = 'https://www.google-analytics.com/debug/collect?v=1&tid=G-G7G7RYJ9BW&cid=555&t=event&ec=current_uah_usd_ratio&ea=set&el=exchange_rate&ev=36'
 async function getDataAboutNBUExchange() {
   let dataAboutNBUExchange;
   const urlNBU = 'https://bank.gov.ua/NBU_Exchange/exchange_site?&valcode=usd&sort=exchangedate&order=desc&json';
