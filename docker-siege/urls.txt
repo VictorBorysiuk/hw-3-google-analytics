@@ -1,0 +1,6 @@
+http://highloadsoftwarearchitectureforhw-env.eba-wkg2qe6m.us-east-1.elasticbeanstalk.com/api/posts/withoutAuth?title=simpson1&content=doestoo11 POST
+http://highloadsoftwarearchitectureforhw-env.eba-wkg2qe6m.us-east-1.elasticbeanstalk.com/api/posts/withoutAuth?title=simpson2&content=doestoo11 POST
+http://highloadsoftwarearchitectureforhw-env.eba-wkg2qe6m.us-east-1.elasticbeanstalk.com/api/posts/withoutAuth?title=simpson3&content=doestoo11 POST
+http://highloadsoftwarearchitectureforhw-env.eba-wkg2qe6m.us-east-1.elasticbeanstalk.com/api/posts/withoutAuth?title=simpson4&content=doestoo11 POST
+http://highloadsoftwarearchitectureforhw-env.eba-wkg2qe6m.us-east-1.elasticbeanstalk.com/api/posts/withoutAuth?title=simpson5&content=doestoo11 POST
+http://highloadsoftwarearchitectureforhw-env.eba-wkg2qe6m.us-east-1.elasticbeanstalk.com/api/posts/
