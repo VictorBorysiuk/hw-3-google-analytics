@@ -2,6 +2,7 @@
   "env": {
     "MONGO_ATLAS_PW": "lT0kzGcXiGsF6shI",
     "JWT_KEY": "secret_this_should_be_longer",
-    "GA_TRACKING_ID": "G-G7G7RYJ9BW"
+    "MEASUREMENT_ID": "G-G7G7RYJ9BW",
+    "API_SECRET": "EoMF92HxSOe5wccdodEcCA"
   }
 }
